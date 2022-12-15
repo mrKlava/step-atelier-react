@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+//////////////////////////////////////
+//              COLORS              //
+//////////////////////////////////////
+
+
+$noir:                  #000;
+$blanche:               #fff;
+
+$blue-deep:             #140A82;
+$blue-light:            #00B0CC;
+
+$green:                 #24A640;
+$yellow:                #F6CB40;
+$orange:                #FF5E1A;
+
+
+     // BG
+$bg-body:               $blanche;
+
+$bg-nav:                $blanche;
+$bg-footer:             $blue-deep;
+
+$bg-btn-prm:            $blue-deep;
+$bg-btn-prm-hover:      lighten($blue-deep, 20%);
+
+$bg-btn-sec:            $blue-deep;
+$bg-btn-sec-hover:      darken($blue-deep, 20%);
+
+
+    // FONTS
+$color-title:           $noir;
+$color-text:            $noir;
+
+$color-title-con:       $blanche;
+$color-text-con:        $blanche;
+
+        // Nav-link
+$color-navlink:         $noir;
+// $color-navlink-mob:     $gray-text;
+// $color-navlink-active:  $pink-red;
+// $color-navlink-hover:   $gold;
+        // Btn
+$color-btn-prm:         $blanche;
+
+
+
+//////////////////////////////////////
+//              TEXT                //
+//////////////////////////////////////
+
+/*
+font-family: 'Rubik', sans-serif;
+*/
+
+$font-title:            'Rubik', sans-serif;
+$font-text:             'Rubik', sans-serif;
+
+    // SIZE
+    
+$font-size-base:        16px;    // 1rem
+// Titles
+$text-xl:               4rem;    // 64px 
+$text-lg:               1.5rem;  // 24px
+$text-md:               1.125rem;// 18px
+$text-sm:               1rem;    // 16px
+$text-xs:               .75rem;  // 12px
+
+//////////////////////////////////////
+//           SCREEN SIZE            //
+//////////////////////////////////////
+
+        // Small small screen / phone small
+$screen-xs:             320px;
+$screen-xs-min:         $screen-xs;             // 320px
+$screen-phone:          $screen-xs-min;         // 320px
+        // Small screen / phone
+$screen-sm:             544px;
+$screen-sm-min:         $screen-sm;             // 544px
+$screen-tablet:         $screen-sm-min;         // 544px
+        // Medium screen / tablet
+$screen-md:             767px;
+$screen-md-min:         $screen-md;             // 767px
+$screen-desktop:        $screen-md-min;         // 767px
+        // Medium screen / desktop small
+$screen-lg:             921px;
+$screen-lg-min:         $screen-lg;             // 921px
+$screen-desktop:        $screen-lg-min;         // 921px
+// Large screen / desktop
+$screen-xl:             1024px;
+$screen-xl-min:         $screen-xl;             // 1024px
+$screen-desktop:        $screen-xl-min;         // 1024px
+        // Large screen / desktop wide
+$screen-xxl:            1440px;
+$screen-xxl-min:        $screen-xxl;            // 1440px
+$screen-desktop-wide:   $screen-xxl-min;        // 1440px
